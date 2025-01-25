@@ -28,5 +28,6 @@ ________________________________________________________________________________
 🚀 Setup
 1. Clone the Repository
 
-.  git clone https://github.com/Vikneshwar-GK/Vehicle-Tracking-System.git
-.  cd smart-city-real-time-data
+```bash
+   git clone https://github.com/Vikneshwar-GK/Vehicle-Tracking-System.git
+   cd smart-city-real-time-data
