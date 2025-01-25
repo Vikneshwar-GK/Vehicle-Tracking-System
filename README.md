@@ -32,7 +32,13 @@ ________________________________________________________________________________
    git clone https://github.com/Vikneshwar-GK/Vehicle-Tracking-System.git
    cd Vehicle-Tracking-System
 ```
-2. 
+2. Docker Setup
+To run Kafka locally, the project uses Docker and Docker Compose. Ensure Docker is installed and running on your machine.
+
+```bash
+   docker-compose up -d
+```
+
 
 
 
