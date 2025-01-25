@@ -13,3 +13,20 @@ Before running the project, ensure you have the following:
 -  Apache Kafka: To stream data.
 -  Apache Spark: For data processing.
 -  IAM Roles (see below for details): Required to grant the project proper access to AWS resources.
+
+________________________________________________________________________________________________________________________________________________________________________________________________
+
+🗂️ Files in the Repository
+-  main.py: Python script to simulate and push data to Kafka topics.
+-  docker-compose.yml: Docker configuration for running Kafka and other dependencies.
+-  dataProcessing_spark.py: Apache Spark script to process and store Kafka streams in S3.
+-  requirements.txt: Python dependencies for the project.
+-  redshift-query.sql: SQL queries for querying data stored in Redshift.
+
+________________________________________________________________________________________________________________________________________________________________________________________________
+
+🚀 Setup
+1. Clone the Repository
+
+git clone https://github.com/yourusername/smart-city-real-time-data.git
+cd smart-city-real-time-data
