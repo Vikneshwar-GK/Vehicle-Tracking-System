@@ -26,14 +26,14 @@ ________________________________________________________________________________
 ________________________________________________________________________________________________________________________________________________________________________________________________
 
 🚀 Setup
-1. Clone the Repository
+1. Clone the Repository:
 
 ```bash
    git clone https://github.com/Vikneshwar-GK/Vehicle-Tracking-System.git
    cd Vehicle-Tracking-System
 ```
-2. Docker Setup
-To run Kafka locally, the project uses Docker and Docker Compose. Ensure Docker is installed and running on your machine.
+2. Docker Setup:<br/>
+   To run Kafka locally, the project uses Docker and Docker Compose. Ensure Docker is installed and running on your machine.
 
 ```bash
    docker-compose up -d
