@@ -30,4 +30,9 @@ ________________________________________________________________________________
 
 ```bash
    git clone https://github.com/Vikneshwar-GK/Vehicle-Tracking-System.git
-   cd smart-city-real-time-data
+   cd Vehicle-Tracking-System
+```
+2. 
+
+
+
