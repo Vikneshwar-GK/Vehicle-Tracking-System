@@ -1,6 +1,15 @@
 # Vehicle-Tracking-System
-This project implements a real-time vehicle monitoring system that collects and processes streaming data from vehicles in transit. The system tracks and analyzes various aspects such as vehicle information, GPS coordinates, traffic conditions, weather updates, and emergency/sudden incidents.
+This project simulates a Vehicle tracking system by streaming data from multiple sources like vehicles, GPS systems, traffic cameras, weather stations, and emergency incidents. The project is designed to ingest, process, and store data in a cloud-based ecosystem using Apache Kafka, Apache Spark, Amazon S3, AWS Glue, and Amazon Redshift.
 
-While this setup is designed to handle real-time data, for the ease of development and demonstration, the “real-time” data used in this project is synthetically generated within the code. It does not currently ingest data directly from IoT devices or external sensors.
+The project aims to showcase how to handle real-time data pipelines in the cloud, with detailed steps for data storage and processing in Amazon S3, AWS Glue Cataloging, and Amazon Redshift integration.
 
-This approach allows for testing and validating the pipeline without requiring a live IoT environment. However, the architecture is fully capable of integrating with real IoT data sources with minimal modifications.
+________________________________________________________________________________________________________________________________________________________________________________________________
+
+📋 Prerequisites
+
+Before running the project, ensure you have the following:
+	•	Docker: To containerize and run the project.
+	•	AWS Account: For setting up Amazon S3, AWS Glue, and Redshift.
+	•	Apache Kafka: To stream data.
+	•	Apache Spark: For data processing.
+	•	IAM Roles (see below for details): Required to grant the project proper access to AWS resources.
